@@ -219,7 +219,7 @@
                             <td style="text-align: left" class="tg-svo0">E5: Relatório de Desenho/Arquitetura</td>
                             <td class="tg-svo0"></td>
                             <td class="tg-svo0"></td>
-                            <td class="tg-svo0"><a class="popup-with-move-anim" href="#details-lightbox-1">v1.0</a></td>
+                            <td class="tg-svo0"><a href="#">v1.0</a></td>
                             <td class="tg-svo0"></td>
                         </tr>
                         <tr>
@@ -233,7 +233,7 @@
                             <td style="text-align: left" class="tg-svo0">E7: Implementação</td>
                             <td class="tg-svo0"></td>
                             <td class="tg-svo0"></td>
-                            <td class="tg-svo0"></td>
+                            <td class="tg-svo0"><a class="popup-with-move-anim" href="#details-lightbox-1">v1.0</a></td>
                             <td class="tg-svo0"></td>
                         </tr>
                         <tr>
@@ -385,7 +385,7 @@
                             <td class="tg-c3ow">v1.0</td>
                             <td class="tg-c3ow">22/11/2019</td>
                             <td class="tg-c3ow">Rodrigo Rosmaninho, Alexandre Lourenço</td>
-                            <td class="tg-c3ow"></td>
+                            <td class="tg-c3ow">Inicialização da estrutura base da aplicação, desenvolvimento das páginas de listagem de lojas, catálogo de uma loja, login, e perfil (parcialmente). Integração da aplicação com a API</td>
                         </tr>
                     </table>
 
@@ -456,10 +456,16 @@
                             <th class="tg-c3ow">Alterações significativas</th>
                         </tr>
                         <tr>
+                            <td class="tg-c3ow">N/A</td>
+                            <td class="tg-c3ow">18/11/2019</td>
+                            <td class="tg-c3ow">Rodrigo Rosmaninho</td>
+                            <td class="tg-c3ow">Preparação do RaspberryPi para expôr a API à Internet</td>
+                        </tr>
+                        <tr>
                             <td class="tg-c3ow">v1.0</td>
                             <td class="tg-c3ow">22/11/2019</td>
                             <td class="tg-c3ow">Eurico Dias</td>
-                            <td class="tg-c3ow"></td>
+                            <td class="tg-c3ow">Construção da totalidade do schema da base de dados, 4 endpoints na API, e migração de ambos para o RaspberryPi</td>
                         </tr>
                     </table>
 
@@ -552,6 +558,14 @@
                                 segunda iteração.
                             </td>
                         </tr>
+                        <tr>
+                            <td class="tg-c3ow">v3.0</td>
+                            <td class="tg-c3ow">22/11/2019</td>
+                            <td class="tg-c3ow">Rodrigo Rosmaninho</td>
+                            <td class="tg-c3ow">Atualização de imagens e da página de Documentação para a entrega da
+                                terceira iteração.
+                            </td>
+                        </tr>
                     </table>
 
                     <br>
@@ -577,11 +591,12 @@
             </div> <!-- end of col -->
             <div class="col-lg-4">
                 <h4>Aplicação Mobile</h4>
-                <h5>Descarregar: <a href="#">Link</a></h5>
+                <h5>Descarregar: <a href="app/CityConnect_v1.apk">Link</a></h5>
                 <h5>Repositório: <a href="https://github.com/AMS19-303/CityConnect">Link</a></h5>
+                <h5>Vídeo de Demonstração: <a href="https://youtu.be/12fr87Yc3MI">Link</a></h5>
                 <h5>Funcionalidades</h5>
                 <p>Implementada nativamente em Java com o Android Studio por Rodrigo Rosmaninho e Alexandre
-                    Lourenço. Informação sobre lojas, catálogo, e categorias são obtidas da Base de Dados.</p>
+                    Lourenço. Informação sobre lojas, catálogo, e categorias são obtidas através da Base de Dados.</p>
                 <p>Conta de Demonstração:</p>
                 <ul>
                     <li>Email: <b>demo@ua.pt</b></li>
@@ -594,18 +609,18 @@
                     </li>
                     <li class="media">
                         <i class="fas fa-check"></i>
-                        <div class="media-body">CaU x.x - Bla bla</div>
+                        <div class="media-body">CaU 2.1 - Consultar o catálogo digital das lojas com parceria</div>
                     </li>
                     <li class="media">
                         <i class="fas fa-check"></i>
-                        <div class="media-body">CaU x.x - Bla bla</div>
+                        <div class="media-body">CaU 1.2 - Ver e atualizar os dados da conta (Parcialmente)</div>
                     </li>
                 </ul>
             </div>
             <div class="col-lg-4">
                 <h4>Backend</h4>
                 <h5>Repositório: <a href="https://github.com/AMS19-303/CityConnect-Backend">Link</a></h5>
-                <h5>Funcionalidades</h5>
+                <h5>Funcionalidades do API</h5>
                 <p>Base de Dados em PostgreSQL e API em Flask (Framework de Python). Implementado por Eurico
                     Dias.</p>
                 <p>Backend alojado, nesta primeira fase, num RaspberryPi 2 exposto à Internet</p>
@@ -613,18 +628,17 @@
                 <ul class="list-unstyled li-space-lg">
                     <li class="media">
                         <i class="fas fa-check"></i>
-                        <div class="media-body">Log In e Log Out</div>
+                        <div class="media-body">Lista de lojas (totalidade ou filtradas por categoria)</div>
                     </li>
                     <li class="media">
                         <i class="fas fa-check"></i>
-                        <div class="media-body">CaU x.x - Bla bla</div>
+                        <div class="media-body">Lista de itens de uma loja (catálogo)</div>
                     </li>
                     <li class="media">
                         <i class="fas fa-check"></i>
-                        <div class="media-body">CaU x.x - Bla bla</div>
+                        <div class="media-body">Lista de categorias</div>
                     </li>
                 </ul>
-                <a class="btn-outline-reg mfp-close as-button" href="#screenshots">Voltar</a>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
     </div> <!-- end of container -->
